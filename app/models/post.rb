@@ -1,5 +1,5 @@
 class Post < ApplicationRecord
+ 	validates_presence_of :content
 
-	validates_presenct_of :content
 	belongs_to :user
 end
